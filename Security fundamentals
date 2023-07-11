@@ -1,0 +1,67 @@
+1. Which technology is used to create the multiple stimulated environments  by utilizing a physical instance of an infrastructural resources?
+    A. Hypervision technology
+    B. Virtualization technology
+    c. Infrastructural technology
+ANS : (b)
+
+2. Which software program enables hardware to host multiple virtual machines ?
+Ans:  Hypervisor
+Explanation :   hypervisors have the ability to allocate physical machine resources to VMs in a dynamic manner .
+
+3. what is the function of server virtualisation?
+ANS : It deploy VMM on the server and divide the single physical server into multiple virtual servers
+
+4. what is the function of Hardware virtualization ?
+ANS : it installs VMM directly on the hardware system
+
+5. What do cloud computing refers to?
+Ans : deployment of multiple workloads or delivering the computing services such as servers,databases,storage
+
+6. Explain different cloud computing models ?
+ANS : 1. Software-as-a-service(Saas)
+           2. platform-as-a-service(Paas)
+            3. Infrastructure-as-a-service(Iaas)
+
+7. Differentiate between Virtualization and cloud computing?
+ANS : virtualization is a technology where as cloud computing is a environment
+•	CC inherits the “You pay for what you need and use” consumption model
+
+8.  What is Containerization in the cloud ?
+ANS : It is an OS virtualization that builds and encapsulates software code. And it also eliminates the problem of porting code effectively from one infrastructure and another.It also eliminates the problem of cross-infrastructure
+
+9. what are the characteristics of containers ?
+A: portability, Lightweight and efficient ,single executable package, isolation, improved security, fault isolation , Easy operational management
+
+10. what are the components of containerized applications ?
+ANS : container hosts, registry server, container image, container engine/runtime, Namespace, Kernel namespace, tags, Repositories , graph driver
+
+11. what does serverless computing architecture do ?
+ANS : it allows to perform light weight cloud operations
+
+12. Hoe you can embed security using DevOps ?
+ANS : it is done by using 3 models
+1.	DevOpsSec 2. DevSecOps 3. SecDevOps
+
+13. What are cloud security pillars ?
+ANS : Continuous security monitor
+User security
+Physical security
+Storage resources security
+Database security
+Infrastructure security
+Operating system security
+Network security
+Middleware security
+Data security
+Application security
+
+14. How many Security assessment and testing approaches are there in cloud computing ?
+ANS: 3 they are 1. Black box testing-----internal knowledge and details are not known and it is also called as “closed box testing”
+2.	White box testing---internal knowledge and details are known and it is also called as “clear box testing”
+3.	Grey box testing—both clear box and closed box testing are known
+
+
+15. what are the three different types of application security ?
+ANS : 1. Static application assessment testing
+         2. dynamic application assessment testing
+          3. Interactive application assessment testing
