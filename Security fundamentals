@@ -60,6 +60,64 @@ ANS: 3 they are 1. Black box testing-----internal knowledge and details are not 
 2.	White box testing---internal knowledge and details are known and it is also called as “clear box testing”
 3.	Grey box testing—both clear box and closed box testing are known
 
+15. what is  the main role of IAM ?
+ANS : it is an identity and access policy framework configuring access permissions for various identities
+
+16. what is the principe of IAM user ?
+ANS : a person or application that makes requests to cloud resources using IAM users
+
+17. what are the basic elements of IAM ?
+ANS : authorisation, authentication
+
+18. identity-based policies are divided into how many types?
+ANS : Basic permission policy(that you attach to an entity), Inline policy(embedded directly to single user), managed policy(attached to multiple users)
+
+19. into how many types policies are divided ?
+ANS :trust based policy, identity based policy, resources based policy
+
+20. what are policy elements ?
+ANS : version , ID , Sid, statement, effect, principle, Not principle, Action, Not action, resources, not resource, condition
+
+21. what is the condition of global condition syntax ?
+ANS : aws:<condition_key>
+
+22. what is the use of “wildcard asterisk ?
+ANS : it implements unrestricted access to the resources
+
+23. what is the role of “Assumerole” ?
+ANS : it grants temporary access to different users or roles
+
+24. when do confused deputy problems occur ?
+ANS : when the cloud service has provided the permission for one purpose and is able to use the same permission for the another reason
+
+25. What is Over-Permissive Role Trust Policy ?
+ANS : Abusing the permissions to compromise aws resources in the account.
+
+26. which element contains the unique identifier of the third party ?
+ANs : ExternalID
+
+27. why does privilege Escalation do ?
+ANS : Privilege escalation due to a policy misconfiguration can allow unwarranted operations in the cloud environment
+
+28. what are the permissions present in the privilege escalation ?
+ANS : 1. Attachgroup policy
+2. attach user policy
+3. attach role policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 15. what are the three different types of application security ?
 ANS : 1. Static application assessment testing
