@@ -104,22 +104,64 @@ ANS : 1. Attachgroup policy
 2. attach user policy
 3. attach role policy
 
+29 . why to perform a network security assessment ?
+ANS : to prevent security breaches and exploitation of network resources
+
+30. what are the characteristics of security groups ?
+ANS : 1. Implement the functionality of stateful firewalls at the resource level in the cloud
+2. Allow adding a specific Deny traffic rule by default to restrict all the traffic to the resource.
+
+31. what are the characteristics of NACL ?
+ANS : 1. implement the functionality of stateless firewalls at subnet level in the cloud
+2. Define inbound and outbound rules explicitly with “ Allow” and “ Deny” flags.
+3. the maximum number for NACLs is 32766
+
+32 . what is VPC peering ?
+ANS : process of establishing the connection between two VPc to allow intercommunication among cloud instances and workloads deployed into two separate VPCs.
+
+33. What are the benefits of VPC peering ?
+ANS : it reduces the network latency because of internal IP addresses
+
+34. what are the most security misconfigurations in SGs ?
+ANS : Default NACLs configured in the VPC allow unrestricted inbound and outbound traffic from the subnet. 
+2.  Possibility of “ Traffic Rule” collisions.
+3. Make sure to restrict the outbound traffic originating from the resource/ instance or subnet. Q 
+4.Overly-permissive NACL traffic bypasses
+
+35. which command is used for describing the route tsbles ?
+ANS : AWS CLI EC2
+
+36. what is the work of the Bastion Hosts?
+ANS : it allows only incoming traffic from remote locations on the internet
+
+37. what is the function of FIM ?
+ANS :it allows back you to check the integrity violations
+
+38. what are the commands that are available on the bastion host ?
+ANS : wget and curl
+
+39. what is the function of EICAR ?
+ANS : it is a basic malware testing file that contains signatures and patterns of various malicious code .
+
+40. on which ports Open Vpn runs ?
+Ans : port 8433, tcp port 9443, tcp port 10443
+
+41. which protocol supports the creation of encrypted tunnels for the VPN connection?
+ANS : Internet Key Exchange
+
+42. At which layer ALB’s work ?
+ANS : layer 7 application layer
+
+43. what is the difference between CLB and ALB ?
+ANS : clb works at both request level and connection level whereas alb works only at request level
+
+44. . At which layer NLB’s work ?
+ANS : at layer 4 transport layer
+
+45. what is netcat tool ?
+ANS : it is a simple program that reads and writes data across networks . It is useful to hacker as a port scanner
+
+46. Port mapper service uses which protocol ?
+ANS : TCP/UDP port 111
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-15. what are the three different types of application security ?
-ANS : 1. Static application assessment testing
-         2. dynamic application assessment testing
-          3. Interactive application assessment testing
